@@ -1,0 +1,492 @@
+@import "vars";
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+  only screen and (min--moz-device-pixel-ratio: 1.3),
+  only screen and (-o-min-device-pixel-ratio: 13 / 10),
+  only screen and (min-device-pixel-ratio: 1.3),
+  only screen and (min-resolution: 124.8dpi),
+  only screen and (min-resolution: 1.3dppx) {
+  .Logo-link,
+  .Logo--white,
+  .StripeAdvice span,
+  .SectionIntro-title:after,
+  .owl-theme .owl-controls .owl-page span,
+  .owl-theme .owl-controls .owl-page.active span,
+  .BuyModule,
+  .buffetsBuyModule,
+  .cakesBuyModule,
+  .traybakesBuyModule,
+  .Facebook--white,
+  .Twitter--white,
+  .Google--white,
+  .Facebook--red,
+  .Twitter--red,
+  .Google--red,
+  .ShareModule,
+  .comodoLogo,
+  .personaliseStripe,
+  .personalisedStripe,
+  .Product-quantityReset,
+  .Pagination-link,
+  .Pagination-link.active,
+  .DetailsPanel-content:after,
+  .personaliseStripe-pi {
+    background-image: url("../images/horizontal-retina-s760d698a22.png");
+    background-repeat: no-repeat;
+    -moz-background-size: 3584px 117px;
+    -o-background-size: 3584px 117px;
+    -webkit-background-size: 3584px 117px;
+    background-size: 3584px 117px;
+  }
+  .OpenMenulink,
+  .CloseMenu,
+  .selectAccount:after,
+  .selectAccount:hover:after,
+  .whiteCircleDown,
+  .whiteCircleDown:hover,
+  .redCircleDown,
+  .PageDownButton,
+  .redCircleDown:hover,
+  .PageDownButton:hover,
+  .redCircleUp,
+  .PageUpButton,
+  .redCircleUp:hover,
+  .PageUpButton:hover,
+  .AddButton,
+  .redArrowLeft,
+  .redArrowRight,
+  .backButton,
+  .bigCloseButton,
+  .DetailsPanel-close,
+  .Upsell-close,
+  .AllergenInfo--closeButton,
+  .bigCloseButton:hover,
+  .DetailsPanel-close:hover,
+  .Upsell-close:hover,
+  .AllergenInfo--closeButton:hover,
+  .smallCloseButton,
+  .textCloseButton,
+  .searchButton,
+  .categoryButton--active:after,
+  .greyArrowDown,
+  .Alert:before,
+  .personaliseAlert:before,
+  .suggestionMessage,
+  .PageNav-menu:after,
+  .owl-prev,
+  .owl-prev:hover,
+  .owl-next,
+  .owl-next:hover,
+  .MapPanel-close,
+  .MapPanel-close:hover,
+  .SelectInput,
+  .ErrorMessage,
+  .placePin,
+  .voucherField.correct:after,
+  .voucherField.incorrect:after,
+  .personaliseText,
+  .storesList .selectionBox::before,
+  .collectionpointsList .selectionBox::before,
+  .lockMessage::before,
+  .Bill-total:after,
+  .Bill-total:before,
+  .Product-item:after,
+  .Product-overlayLabel:before,
+  .Product-name::after,
+  .Product-name.is-reviewed::after,
+  .Accordion-title,
+  .Accordion-title.active,
+  .AccordionWide-title.active:after,
+  .c-show-ingredients-personalisation,
+  .c-show-ingredients-personalisation.csi-active,
+  .PrevMonthButton,
+  .PrevMonthButton:hover,
+  .NextMonthButton,
+  .NextMonthButton:hover,
+  .Clamshell-button:after,
+  .Clamshell-button:hover:after,
+  .Clamshell.active .Clamshell-button:after,
+  .cancelLink,
+  .cancelLink:hover,
+  .reviewsLink::after {
+    background-image: url("../images/vertical-retina-s9564cc667e.png");
+    background-repeat: no-repeat;
+    -moz-background-size: 604px 3022px;
+    -o-background-size: 604px 3022px;
+    -webkit-background-size: 604px 3022px;
+    background-size: 604px 3022px;
+  }
+  .Logo-link {
+    background-position: -2282px 0;
+  }
+  .ie8 .Logo-link {
+    background-position: -1780px 0;
+  }
+  .Logo--white {
+    background-position: -2476px 0;
+  }
+  .StripeAdvice span {
+    background-position: -3154px 0;
+  }
+  .OpenMenulink {
+    background-position: 0 -1799px;
+  }
+  .CloseMenu {
+    background-position: 0 -2894px;
+  }
+  .CloseMenu:hover {
+    background-position: 0 -2744px;
+  }
+  .selectAccount:after {
+    background-position: -297px -2308px;
+  }
+  .selectAccount:hover:after {
+    background-position: -576px -2216px;
+  }
+  .SectionIntro-title:after {
+    background-position: -2974px 0;
+  }
+  .ie8 .SectionIntro-title:after {
+    background-position: -827px 0;
+  }
+  .whiteCircleDown {
+    background-position: 0 -948px;
+  }
+  .ie8 .whiteCircleDown {
+    background-position: 50% -2324px;
+  }
+  .whiteCircleDown:hover {
+    background-position: 0 -706px;
+  }
+  .ie8 .whiteCircleDown:hover {
+    background-position: -560px -2186px;
+  }
+  .redCircleDown,
+  .PageDownButton {
+    background-position: 50% -838px;
+  }
+  .redCircleDown:hover,
+  .PageDownButton:hover {
+    background-position: 50% -758px;
+  }
+  .redCircleUp,
+  .PageUpButton {
+    background-position: 50% -1400px;
+  }
+  .redCircleUp:hover,
+  .PageUpButton:hover {
+    background-position: 50% -1320px;
+  }
+  .AddButton {
+    background-position: 0 0;
+  }
+  .redArrowLeft {
+    background-position: 0 -2452px;
+  }
+  .redArrowRight {
+    background-position: 0 -2552px;
+  }
+  .backButton {
+    background-position: 5px -2447px;
+  }
+  .backButton:hover {
+    background-position: 5px -2397px;
+  }
+  .bigCloseButton,
+  .DetailsPanel-close,
+  .Upsell-close,
+  .AllergenInfo--closeButton {
+    background-position: 100% -2789px;
+  }
+  .ie8 .bigCloseButton,
+  .ie8 .DetailsPanel-close,
+  .ie8 .Upsell-close,
+  .ie8 .AllergenInfo--closeButton {
+    background-position: 0 -1590px;
+  }
+  .bigCloseButton:hover,
+  .DetailsPanel-close:hover,
+  .Upsell-close:hover,
+  .AllergenInfo--closeButton:hover {
+    background-position: 100% -2689px;
+  }
+  .ie8 .bigCloseButton:hover,
+  .ie8 .DetailsPanel-close:hover,
+  .ie8 .Upsell-close:hover,
+  .ie8 .AllergenInfo--closeButton:hover {
+    background-position: 0 -1510px;
+  }
+  .smallCloseButton {
+    background-position: 5px -2839px;
+  }
+  .smallCloseButton:hover {
+    background-position: 5px -2739px;
+  }
+  .textCloseButton {
+    background-position: 5px -2839px;
+  }
+  .textCloseButton:hover {
+    background-position: 5px -2739px;
+  }
+  .searchButton {
+    background-position: -583px -2023px;
+  }
+  .searchButton:hover {
+    background-position: 9px -2075px;
+  }
+  .categoryButton--active:after {
+    background-position: -297px -2308px;
+  }
+  .greyArrowDown {
+    background-position: -571px -2211px;
+  }
+  .greyArrowDown:hover {
+    background-position: -571px -2211px;
+  }
+  .Alert:before,
+  .personaliseAlert:before {
+    background-position: 0 -170px;
+  }
+  .suggestionMessage {
+    background-position: 50% -450px;
+  }
+  .PageNav-menu:after {
+    background-position: -297px -2308px;
+  }
+  .owl-prev {
+    background-position: 0 -1110px;
+  }
+  .owl-prev:hover {
+    background-position: 0 -1030px;
+  }
+  .owl-next {
+    background-position: 0 -1270px;
+  }
+  .owl-next:hover {
+    background-position: 0 -1190px;
+  }
+  .owl-theme .owl-controls .owl-page span {
+    background-position: -1241px 0;
+  }
+  .owl-theme .owl-controls .owl-page.active span {
+    background-position: -1293px 0;
+  }
+  .BuyModule,
+  .buffetsBuyModule,
+  .cakesBuyModule,
+  .traybakesBuyModule {
+    background-position: 50px 130px;
+  }
+  .cakesBuyModule {
+    background-position: -78px 122px;
+  }
+  .traybakesBuyModule {
+    background-position: -3231px 126px;
+  }
+  .Facebook--white {
+    background-position: -547px 0;
+  }
+  .Facebook--white:hover {
+    background-position: -477px 0;
+  }
+  .Twitter--white {
+    background-position: -3554px 0;
+  }
+  .Twitter--white:hover {
+    background-position: -3484px 0;
+  }
+  .Google--white {
+    background-position: -757px 0;
+  }
+  .Google--white:hover {
+    background-position: -687px 0;
+  }
+  .Facebook--red {
+    background-position: -477px 0;
+  }
+  .Facebook--red:hover {
+    background-position: -407px 0;
+  }
+  .Twitter--red {
+    background-position: -3484px 0;
+  }
+  .Twitter--red:hover {
+    background-position: -3414px 0;
+  }
+  .Google--red {
+    background-position: -687px 0;
+  }
+  .Google--red:hover {
+    background-position: -617px 0;
+  }
+  .ShareModule {
+    background-position: -1083px 15px;
+  }
+  .MapPanel-close {
+    background-position: 100% -2789px;
+  }
+  .ie8 .MapPanel-close {
+    background-position: 0 -1590px;
+  }
+  .MapPanel-close:hover {
+    background-position: 100% -2689px;
+  }
+  .ie8 .MapPanel-close:hover {
+    background-position: 0 -1510px;
+  }
+  .SelectInput {
+    background-position: 100% -2204px;
+  }
+  .ErrorMessage {
+    background-position: 15px -155px;
+  }
+  .placePin {
+    background-position: 0 -3003px;
+  }
+  .voucherField.correct:after {
+    background-position: 0 -420px;
+  }
+  .voucherField.incorrect:after {
+    background-position: 0 -646px;
+  }
+  .personaliseText {
+    background-position: 0 -1852px;
+  }
+  .storesList .selectionBox::before {
+    background-position: 0 -2136px;
+  }
+  .collectionpointsList .selectionBox::before {
+    background-position: 0 -340px;
+  }
+  .lockMessage::before {
+    background-position: 0 -1754px;
+  }
+  .comodoLogo {
+    background-position: -257px 0;
+  }
+  .Bill-total:after,
+  .Bill-total:before {
+    background-position: 0 -558px;
+  }
+  .Product-item:after {
+    background-position: 0 -602px;
+  }
+  .personaliseStripe,
+  .personalisedStripe {
+    background-position: -1345px 0;
+  }
+  .personalisedStripe {
+    background-position: -1502px 0;
+  }
+  .Product-overlayLabel:before {
+    background-position: 0 -1670px;
+  }
+  .Product-name::after {
+    background-position: -584px -2944px;
+  }
+  .Product-name.is-reviewed::after {
+    background-position: 0 -1912px;
+  }
+  .Product-quantityReset {
+    background-position: -1720px 0;
+  }
+  .Pagination-link {
+    background-position: -1241px 0;
+  }
+  .Pagination-link.active {
+    background-position: -1293px 0;
+  }
+  .DetailsPanel-content:after {
+    background-position: -2794px 0;
+  }
+  .Accordion-title {
+    background-position: 100% -2242px;
+  }
+  .Accordion-title.active {
+    background-position: 100% -2582px;
+  }
+  .AccordionWide-title.active:after {
+    background-position: -297px -2308px;
+  }
+  .c-show-ingredients-personalisation {
+    background-position: -576px -2216px;
+  }
+  .c-show-ingredients-personalisation.csi-active {
+    background-position: 0 -2648px;
+  }
+  .personaliseStripe-pi {
+    background-position: -1345px 0;
+  }
+  .PrevMonthButton {
+    background-position: 50px -2422px;
+  }
+  .PrevMonthButton:hover {
+    background-position: 50px -2372px;
+  }
+  .NextMonthButton {
+    background-position: 42px -2522px;
+  }
+  .NextMonthButton:hover {
+    background-position: 42px -2472px;
+  }
+  .Clamshell-button:after {
+    background-position: -282px -868px;
+  }
+  .Clamshell-button:hover:after {
+    background-position: -282px -788px;
+  }
+  .Clamshell.active .Clamshell-button:after {
+    background-position: -282px -1430px;
+  }
+  .cancelLink {
+    background-position: 0 -2844px;
+  }
+  .cancelLink:hover {
+    background-position: 0 -2744px;
+  }
+  .reviewsLink::after {
+    background-position: 0 -1972px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .cookie-warning-cookie {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1060px) {
+  .ShareModule-container {
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    max-width: 1280px;
+    z-index: 2;
+  }
+  .ShareModule {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 24px;
+    margin: 40px 24px auto auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .Months {
+    padding: 0 17px;
+  }
+  .Week-list {
+    padding: 0 17px;
+  }
+}
+
+@media (hover: none) {
+  .ipados-hack {
+    display: block;
+  }
+}

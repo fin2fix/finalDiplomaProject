@@ -1,0 +1,373 @@
+@import "vars";
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .GoogleMapsIframe {
+    position: relative;
+    height: 60vh;
+    z-index: 1;
+  }
+
+  .tablet-oneWhole {
+    width: 100%;
+  }
+
+  .tablet-oneHalf,
+  .tablet-twoQuarters,
+  .tablet-threeSixths,
+  .tablet-fourEighths,
+  .tablet-fiveTenths,
+  .tablet-sixTwelfths,
+  .Product {
+    width: 50%;
+  }
+
+  .tablet-oneThird,
+  .tablet-twoSixths,
+  .tablet-fourTwelfths {
+    width: 33.333%;
+  }
+
+  .tablet-twoThirds,
+  .tablet-fourSixths,
+  .tablet-eightTwelfths {
+    width: 66.666%;
+  }
+
+  .tablet-oneQuarter,
+  .tablet-twoEighths,
+  .tablet-threeTwelfths {
+    width: 25%;
+  }
+
+  .tablet-threeQuarters,
+  .tablet-sixEighths,
+  .tablet-nineTwelfths {
+    width: 75%;
+  }
+
+  .tablet-oneFifth,
+  .tablet-twoTenths {
+    width: 20%;
+  }
+
+  .tablet-twoFifths,
+  .tablet-fourTenths {
+    width: 40%;
+  }
+
+  .tablet-threeFifths,
+  .tablet-sixTenths {
+    width: 60%;
+  }
+
+  .tablet-fourFifths,
+  .tablet-eightTenths {
+    width: 80%;
+  }
+
+  .tablet-oneSixth,
+  .tablet-twoTwelfths {
+    width: 16.666%;
+  }
+
+  .tablet-fiveSixths,
+  .tablet-tenTwelfths {
+    width: 83.333%;
+  }
+
+  .tablet-oneEighth {
+    width: 12.5%;
+  }
+
+  .tablet-threeEighths {
+    width: 37.5%;
+  }
+
+  .tablet-fiveEighths {
+    width: 62.5%;
+  }
+
+  .tablet-sevenEighths {
+    width: 87.5%;
+  }
+
+  .tablet-oneTenth {
+    width: 10%;
+  }
+
+  .tablet-threeTenths {
+    width: 30%;
+  }
+
+  .tablet-sevenTenths {
+    width: 70%;
+  }
+
+  .tablet-nineTenths {
+    width: 90%;
+  }
+
+  .tablet-oneTwelfth {
+    width: 8.333%;
+  }
+
+  .tablet-fiveTwelfths {
+    width: 41.666%;
+  }
+
+  .tablet-sevenTwelfths {
+    width: 58.333%;
+  }
+
+  .tablet-elevenTwelfths {
+    width: 91.666%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Header,
+  .Header--minimal {
+    height: 170px;
+    z-index: 2;
+    position: absolute;
+  }
+  .Header--minimal {
+    height: 130px;
+  }
+  .Content {
+    margin-top: 170px;
+  }
+  .Logo {
+    width: 192px;
+    height: 53px;
+    margin-top: 35px;
+  }
+  .Logo-link {
+    background-position: -2050px 0;
+    width: 192px;
+    height: 53px;
+  }
+  .Navigation {
+    width: 210px;
+    z-index: 1;
+  }
+  .OpenMenu {
+    height: 130px;
+    top: auto;
+  }
+  .OpenMenulink {
+    color: $corporateRedColor;
+    padding-left: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+  }
+  .Canvas--square {
+    min-height: 400px;
+  }
+  .homeIllustration img {
+    max-height: 100%;
+    padding: 40px 70px 60px;
+    width: auto;
+  }
+  .foodIllustration img {
+    max-height: 100%;
+    padding: 40px 70px 120px;
+    width: auto;
+  }
+  .SectionIntro {
+    max-width: 596px;
+    top: 0;
+    bottom: 0;
+    height: 190px;
+  }
+  .SectionIntro-title {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .SectionIntro-text {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 14px;
+    margin-bottom: 0.58333em;
+  }
+  .bigCloseButton,
+  .DetailsPanel-close,
+  .Upsell-close,
+  .AllergenInfo--closeButton {
+    background-position: 100% -2786px;
+  }
+  .bigCloseButton:hover,
+  .DetailsPanel-close:hover,
+  .Upsell-close:hover,
+  .AllergenInfo--closeButton:hover {
+    background-position: 100% -2686px;
+  }
+  .biggerTitle,
+  .biggerTitle--deep {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .bigTitle {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .mediumTitle,
+  .mediumTitle--red {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .redTitle {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .smallTitle--triple {
+    min-height: 100px;
+  }
+  .bigText {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .mediumLightText {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 12px;
+    margin-bottom: 0.6em;
+  }
+  .PageNav-list {
+    padding: 20px 40px;
+  }
+  .Feature-description {
+    min-height: 200px;
+  }
+  .Product {
+    overflow: visible;
+  }
+  .Product-title {
+    height: 90px;
+  }
+  .Product-description {
+    height: 120px;
+  }
+  .Upsell-close {
+    top: -5px;
+    right: 5px;
+  }
+  .Upsell-close span {
+    right: 20px;
+  }
+  .DetailsPanel-title {
+    margin: 0 auto 30px;
+    max-width: 250px;
+    min-height: 50px;
+  }
+  .Week-item,
+  .Day-item {
+    width: 80px;
+  }
+  .Grid--wider {
+    margin-left: -50px;
+  }
+  .Grid--wider .Grid-item,
+  .Grid--wider .Product,
+  .Grid--wider .DetailsPanel-grid,
+  .Grid--wider .Accordion-half,
+  .Grid--wider .Grid-item--third,
+  .Grid--wider .Grid-item--half,
+  .Grid--wider .Grid-item--whole-half,
+  .Grid--wider .Grid-item--half-whole,
+  .Grid--wider .Grid-item--third-half,
+  .Grid--wider .Grid-item--fourth {
+    padding-left: 50px;
+  }
+  .List--border {
+    column-count: 3;
+  }
+  .Clamshell-title {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .c-site-banner .c-banner-content {
+    padding: 0 40px;
+  }
+  .Wrap {
+    margin: 0 40px;
+  }
+  .bigWrap {
+    max-width: 596px;
+  }
+  .biggerWrap,
+  .DetailsPanel-inner {
+    margin: 0 40px;
+  }
+  .biggestWrap {
+    margin: 0 40px;
+  }
+  .smallWrap {
+    max-width: 596px;
+  }
+  .smallerWrap,
+  .smallerWrap--full,
+  .personaliseArea {
+    max-width: 596px;
+  }
+  .break {
+    word-break: break-all;
+    display: block;
+  }
+  .js-onside {
+    -moz-transform: translateX(210px);
+    -ms-transform: translateX(210px);
+    -webkit-transform: translateX(210px);
+    transform: translateX(210px);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.3),
+  only screen and (min-width: 768px) and (max-width: 1023px) and (min--moz-device-pixel-ratio: 1.3),
+  only screen and (min-width: 768px) and (max-width: 1023px) and (-o-min-device-pixel-ratio: 13 / 10),
+  only screen and (min-width: 768px) and (max-width: 1023px) and (min-device-pixel-ratio: 1.3),
+  only screen and (min-width: 768px) and (max-width: 1023px) and (min-resolution: 124.8dpi),
+  only screen and (min-width: 768px) and (max-width: 1023px) and (min-resolution: 1.3dppx) {
+  .Logo-link {
+    background-position: -2050px 0;
+  }
+  .bigCloseButton,
+  .DetailsPanel-close,
+  .Upsell-close,
+  .AllergenInfo--closeButton {
+    background-position: 100% -2786px;
+  }
+  .bigCloseButton:hover,
+  .DetailsPanel-close:hover,
+  .Upsell-close:hover,
+  .AllergenInfo--closeButton:hover {
+    background-position: 100% -2686px;
+  }
+}

@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /admin/
+
+User-agent: Yandex
+Allow: /
+
+Sitemap: https://www.mysite.ru/sitemap.xml
+
+
+

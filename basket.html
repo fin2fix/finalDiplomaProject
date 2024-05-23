@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Simmons&nbsp;| Basket</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="images/icons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/icons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="images/icons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/icons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="images/icons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="images/icons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="images/icons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon-180x180.png"
+    />
+    <script src="javascripts/dropzone.js"></script>
+    <meta property="og:title" content="Simmons Bakers" />
+    <meta
+      property="og:description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, assumenda ipsa."
+    />
+    <meta property="og:image" content="/images/icons/facebook-og.jpg" />
+    <meta property="og:url" content="#" />
+    <meta property="og:type" content="website" />
+    <meta
+      name="msapplication-TileImage"
+      content="/images/icons/thumbnail.png"
+    />
+    <meta name="msapplication-TileColor" content="#fafaf6" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="https://use.typekit.net/ryi7dhm.js"></script>
+    <script>
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+    <script>
+      var restrictedClickAndCollect = [],
+        restrictedBuffets = [];
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=1"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script>
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(97267325, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+      });
+    </script>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+
+  <body>
+    <div class="ipados-hack"></div>
+    <div class="Site">
+      <div class="Header" role="banner">
+        <a href="basket.html">
+          <div class="basketBuyModule-container">
+            <div class="cakesBuyModule">
+              <span class="BuyModule-title">Basket total</span>
+              <span id="buyModulePrice" class="BuyModule-price">0.00</span>
+            </div>
+          </div>
+        </a>
+
+        <h1 class="Logo">
+          <a href="index.html" class="Logo-link"
+            >Simmons&nbsp;&mdash; Baking since 1838</a
+          >
+        </h1>
+        <div class="OpenMenu">
+          <a class="OpenMenulink">Menu</a>
+        </div>
+      </div>
+
+      <div class="Navigation" role="navigation">
+        <a class="CloseMenu">Close</a>
+        <ul class="Nav">
+          <li class="Nav-item">
+            <a href="index.html" class="Nav-link">Homepage</a>
+          </li>
+          <li class="Nav-item">
+            <a href="story.html" class="Nav-link">Our Story</a>
+          </li>
+          <li class="Nav-item">
+            <a href="shops.html" class="Nav-link">Our Shops</a>
+          </li>
+          <li class="Nav-item">
+            <a href="contact.html" class="Nav-link">Contact</a>
+          </li>
+          <li class="Nav-item">
+            <a href="clickandcollect.html" class="Nav-link"
+              >Click &amp;&nbsp;collect</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="Content" role="main">
+        <div class="Page mediumPaddingTop macroPaddingBottom">
+          <div class="biggerWrap">
+            <div id="emptyBasket" class="">
+              <img
+                class="mediumMarginBottom"
+                src="images/empty-basket.svg"
+                alt="empty basket"
+              />
+              <h2 class="bigTitle">Basket</h2>
+              <div
+                class="subTitle subTitle--empty smallerWrap--full smallestMarginTop"
+              >
+                Your basket is&nbsp;empty. Would you like to&nbsp;put there
+                something?
+              </div>
+              <a href="clickandcollect.html">
+                <div
+                  class="redButton mediumMarginTop mediumMarginBottom specialButton"
+                >
+                  Go&nbsp;shopping
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="smallestWrap">
+            <p class="mediumText">
+              Order before 2pm for next-day collection to&nbsp;allow our
+              patissiers time to&nbsp;handcraft your message!
+            </p>
+            <img
+              src="images/illustrations/personalise-your-product.png"
+              alt="Cakes &amp; Biscuits are carefully hand iced decorated &amp; finished"
+              width="300"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Footer" role="contentinfo">
+      <a class="Logo--white print-hide" href="index.html"></a>
+      <div class="FootAddress">
+        <address>
+          Address: 7A, block 1, Lipetskaya street, Moscow, Russia
+        </address>
+        <div>
+          Email:
+          <a class="whiteLink" href="mailto:info@kolotushkin.ru"
+            >info@kolotushkin.ru</a
+          >
+          Telephone:
+          <a class="whiteLink" href="tel:074951234567">(495) 123-45-67</a>
+        </div>
+      </div>
+      <div class="FootSocial smallMarginTop">
+        For news and special offers follow&nbsp;us
+        <div class="smallestPaddingTop">
+          <a
+            href="https://www.facebook.com/"
+            class="Facebook--white"
+            target="_blank"
+            >Follow&nbsp;us on&nbsp;Facebook</a
+          ><a
+            href="https://www.instagram.com/"
+            rel="publisher"
+            class="Instagram--white"
+            target="_blank"
+            >Follow&nbsp;us on&nbsp;Instagram</a
+          >
+          <a
+            href="https://www.twitter.com/"
+            rel="publisher"
+            class="Twitter--white"
+            target="_blank"
+            >Follow&nbsp;us on&nbsp;Twitter</a
+          >
+          <a
+            href="https://www.google.com/"
+            rel="publisher"
+            class="Google--white"
+            target="_blank"
+            >Follow&nbsp;us on&nbsp;Google</a
+          >
+        </div>
+      </div>
+      <div class="Copyright smallMarginTop">
+        &copy;&nbsp;Mikhail Kolotushkin, GB&nbsp;&mdash; 2024
+      </div>
+    </div>
+
+    <div class="DetailsPanel"></div>
+    <div class="MapPanel">
+      <div class="MapPanel-inner">
+        <div id="minimap" class="MapPanel-map"></div>
+        <a class="MapPanel-close" onclick="closeMinimap();"></a>
+      </div>
+    </div>
+
+    <noscript>
+      <div>
+        <img
+          src="https://mc.yandex.ru/watch/97267325"
+          style="position: absolute; left: -9999px"
+          alt=""
+        />
+      </div>
+    </noscript>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="javascripts/script.js"></script>
+
+    <script>
+      //  Google Analytics
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "RU-41750697-11", "auto");
+      ga("send", "pageview");
+
+      if (typeof is_paymentpage !== "undefined") {
+        $(window).bind("pageshow", function (event) {
+          if (event.originalEvent.persisted) {
+            window.location.reload();
+          }
+        });
+      }
+
+      $(function () {
+        var date = "";
+        if (date != "") {
+          var d = new Date();
+          var dmy = date.split(" ");
+          if (dmy.length == 3) {
+            d.setFullYear(dmy[2], dmy[1] - 1, dmy[0]);
+            SimmonsCalendar.setupAndDisplay(d);
+            SimmonsCalendar.initSelection(dmy[0]);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

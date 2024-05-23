@@ -1,0 +1,740 @@
+@import "vars";
+
+@media only screen and (max-width: 767px) {
+  .portable-oneWhole {
+    width: 100%;
+  }
+
+  .portable-oneHalf,
+  .portable-twoQuarters,
+  .portable-threeSixths,
+  .portable-fourEighths,
+  .portable-fiveTenths,
+  .portable-sixTwelfths {
+    width: 50%;
+  }
+
+  .portable-oneThird,
+  .portable-twoSixths,
+  .portable-fourTwelfths {
+    width: 33.333%;
+  }
+
+  .portable-twoThirds,
+  .portable-fourSixths,
+  .portable-eightTwelfths {
+    width: 66.666%;
+  }
+
+  .portable-oneQuarter,
+  .portable-twoEighths,
+  .portable-threeTwelfths {
+    width: 25%;
+  }
+
+  .portable-threeQuarters,
+  .portable-sixEighths,
+  .portable-nineTwelfths {
+    width: 75%;
+  }
+
+  .portable-oneFifth,
+  .portable-twoTenths {
+    width: 20%;
+  }
+
+  .portable-twoFifths,
+  .portable-fourTenths {
+    width: 40%;
+  }
+
+  .portable-threeFifths,
+  .portable-sixTenths {
+    width: 60%;
+  }
+
+  .portable-fourFifths,
+  .portable-eightTenths {
+    width: 80%;
+  }
+
+  .portable-oneSixth,
+  .portable-twoTwelfths {
+    width: 16.666%;
+  }
+
+  .portable-fiveSixths,
+  .portable-tenTwelfths {
+    width: 83.333%;
+  }
+
+  .portable-oneEighth {
+    width: 12.5%;
+  }
+
+  .portable-threeEighths {
+    width: 37.5%;
+  }
+
+  .portable-fiveEighths {
+    width: 62.5%;
+  }
+
+  .portable-sevenEighths {
+    width: 87.5%;
+  }
+
+  .portable-oneTenth {
+    width: 10%;
+  }
+
+  .portable-threeTenths {
+    width: 30%;
+  }
+
+  .portable-sevenTenths {
+    width: 70%;
+  }
+
+  .portable-nineTenths {
+    width: 90%;
+  }
+
+  .portable-oneTwelfth {
+    width: 8.333%;
+  }
+
+  .portable-fiveTwelfths {
+    width: 41.666%;
+  }
+
+  .portable-sevenTwelfths {
+    width: 58.333%;
+  }
+
+  .portable-elevenTwelfths {
+    width: 91.666%;
+  }
+}
+
+@media (max-width: 767px) {
+  .Header,
+  .Header--minimal {
+    height: 90px;
+    z-index: 2;
+  }
+  .Header--minimal {
+    height: 50px;
+  }
+  .Footer {
+    padding: 40px 20px;
+  }
+  .Logo {
+    width: 154px;
+    height: 18px;
+    margin-top: 17px;
+  }
+  .Logo-link {
+    width: 154px;
+    height: 18px;
+  }
+  .WarningBanner {
+    height: 105px;
+  }
+  .WarningBanner-inner {
+    height: 105px;
+    padding: 4% 20px;
+  }
+  .Navigation {
+    width: 100vw;
+    z-index: 1;
+  }
+  .OpenMenu {
+    height: 50px;
+    top: auto;
+  }
+  .OpenMenulink {
+    width: 30px;
+    padding-left: 30px;
+    overflow: hidden;
+    margin: auto auto auto 20px;
+  }
+  .Canvas--square {
+    min-height: 200px;
+  }
+  .homeIllustration img {
+    max-height: 100%;
+    padding: 40px 20px 60px;
+    width: auto;
+  }
+  .foodIllustration img {
+    max-height: 100%;
+    padding: 40px 20px 60px;
+    width: auto;
+  }
+  .SectionIntro {
+    padding: 0 20px;
+    top: 0;
+    bottom: 0;
+    height: 65px;
+  }
+  .SectionIntro-title {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .SectionIntro-title:after {
+    width: 140px;
+    height: 22px;
+    margin: 10px auto;
+  }
+  .SectionIntro-text {
+    display: none;
+  }
+  .whiteCircleDown {
+    margin: 20px auto;
+    background-position: 50% -2324px;
+  }
+  .whiteCircleDown:hover {
+    background-position: -560px -2186px;
+  }
+  .ContinueBar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .biggerTitle,
+  .biggerTitle--deep {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .bigTitle {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .mediumTitle,
+  .mediumTitle--red {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .redTitle {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .bigText {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .mediumLightText {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 11px;
+    margin-bottom: 0.61111em;
+  }
+  .bigPic {
+    max-width: 200px;
+    margin: auto auto 15px;
+  }
+  .PageNav-list {
+    padding: 20px;
+  }
+  .PageNav-item {
+    display: inline;
+  }
+  .Carousel-item {
+    min-height: 370px;
+  }
+  .Carousel-description {
+    min-height: 156px;
+  }
+  .InfoWindow-content {
+    padding: 15px 0;
+  }
+  .InfoWindow-content div,
+  .InfoWindow-content span {
+    max-width: 100% !important;
+  }
+  .MapPanel-inner {
+    width: 300px;
+    height: 430px;
+  }
+  .MapPanel-inner::before {
+    border-top: 50px solid $corporateWhiteColor;
+    border-left: 50px solid transparent;
+  }
+  .MapPanel-close {
+    height: 25px;
+    width: 25px;
+    top: 15px;
+    right: 15px;
+  }
+  .FormFields {
+    padding: 25px 20px 40px 20px;
+  }
+  .selectionBox {
+    padding: 20px 70px;
+  }
+  .minimapLink {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .bigContact {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .ProgressBar {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    height: 30px;
+  }
+  .Product-item {
+    max-width: 605px;
+    text-align: left;
+  }
+  .personaliseStripe,
+  .personalisedStripe {
+    background-image: none;
+    background-color: $corporateRedColor;
+    height: 24px;
+    width: 40%;
+    color: $corporateWhiteColor;
+    bottom: 0;
+    text-align: center;
+  }
+  .personaliseStripe::after,
+  .personalisedStripe::after {
+    content: "Personalise";
+  }
+  .personalisedStripe {
+    background-color: $corporateGreyColor;
+  }
+  .personalisedStripe::after {
+    content: "Personalised";
+  }
+  .Product-image {
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+  }
+  .Product-title {
+    width: 60%;
+    display: inline-block;
+    padding: 0 0 0 15px;
+    text-align: left;
+  }
+  .Product-name::before,
+  .Product-name::after {
+    display: block;
+  }
+  .Product-name {
+    text-align: left;
+  }
+  .Product-pricing {
+    text-align: left;
+    margin: 14px auto 16px;
+  }
+  .Product-quantityArea {
+    margin: 5px auto 15px 0;
+  }
+  .Upsell-close {
+    top: -10px;
+    right: -5px;
+  }
+  .Upsell-close span {
+    right: 20px;
+  }
+  .Sad-face-margin.smallestMarginBottom {
+    margin-bottom: 0px;
+  }
+  .Out-of-stock {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Sad-face {
+    width: 24px;
+    height: 24px;
+  }
+  .DetailsPanel-title {
+    margin: 0 auto 15px;
+    max-width: 250px;
+  }
+  .Accordion {
+    text-align: center;
+    position: relative;
+    border: 1px solid $alternativeWhiteColor;
+    background: $corporateWhiteColor;
+  }
+  .Accordion-grid {
+    margin-left: 0;
+  }
+  .Accordion-half {
+    padding-left: 0;
+  }
+  .Accordion-half:first-child {
+    border-bottom: 1px solid $alternativeWhiteColor;
+  }
+  .Accordion-title {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    color: $corporateGreyColor;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid $alternativeWhiteColor;
+    padding: 15px 40px;
+  }
+  .Accordion-title:first-child {
+    border-top: none;
+  }
+  .Accordion-title.active {
+    color: $corporateRedColor;
+  }
+  .Accordion-title:after {
+    display: none;
+  }
+  .Accordion-title.active + .Accordion-content {
+    height: auto;
+    opacity: 1;
+  }
+  .AccordionWide {
+    padding-bottom: 30px;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    white-space: nowrap;
+  }
+  .AccordionWide::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+  }
+  .AccordionWide-title {
+    padding: 0;
+  }
+  .AccordionWide-title:first-child {
+    margin-left: 20px;
+  }
+  .AccordionWide-title:last-child {
+    margin-right: 20px;
+  }
+  .AccordionWide-title:not(:last-child) {
+    margin-right: 10px;
+  }
+  .Accordion-content {
+    width: 100%;
+    display: block;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .Accordion-content form {
+    padding: 20px;
+  }
+  .DetailsPanel #nutritionalContent {
+    margin-bottom: 20px;
+  }
+  .DetailsPanel #nutritionalContent .accordionHeader {
+    font-size: 16px;
+  }
+  .DetailsPanel #nutritionalContent .accordionHeader td span {
+    font-size: 16px;
+  }
+  .DetailsPanel #nutritionalContent .accordionHeader .mediumText,
+  .DetailsPanel #nutritionalContent .accordionHeader .Allergen,
+  .DetailsPanel #nutritionalContent .accordionHeader .Allergen--name {
+    font-size: 16px;
+  }
+  .DetailsPanel .Accordion {
+    border: 0px;
+    background: none;
+  }
+  .DetailsPanel .Accordion-title {
+    background: none;
+  }
+  .DetailsPanel .Accordion-title.active {
+    background: none;
+    color: $corporateGreyColor;
+  }
+  .DetailsPanel .Accordion-title:after,
+  .DetailsPanel .subTitle:after,
+  .DetailsPanel .italicsubTitle:after {
+    content: "";
+    display: block;
+    margin: 14px auto 16px;
+    background-color: $corporateRedColor;
+    height: 1px;
+    width: 60px;
+  }
+  .DetailsPanel .Accordion-title + .Accordion-content {
+    height: auto;
+    opacity: 1;
+  }
+  .Accordion--prod-info {
+    text-align: center;
+    position: relative;
+    border: 0px;
+    background: none;
+  }
+  .Accordion--prod-info.active + .Accordion-content {
+    height: auto;
+    opacity: 1;
+  }
+  .Accordion--prod-info .Accordion-title {
+    background: none;
+  }
+  .Accordion--prod-info .Accordion-title + .Accordion-content {
+    height: auto;
+    opacity: 1;
+  }
+  #selectProductGrid.c-basket-panel {
+    padding: 20px;
+  }
+  #selectProductGrid .quantity-display {
+    left: 0px;
+  }
+  #selectProductGrid .u-flex {
+    height: 172px;
+  }
+  #selectProductGrid .u-relative {
+    width: 100%;
+    position: static;
+  }
+  #selectProductGrid .u-relative--basket .smallCloseButton {
+    margin-top: 0px;
+  }
+  #selectProductGrid .c-title {
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    top: 30px;
+  }
+  .Week-item,
+  .Day-item {
+    width: 14.28571428571429%;
+  }
+  .Today:after {
+    border-top: 8px solid $corporateGreyColor;
+    border-left: 8px solid transparent;
+  }
+  .Day-link.Closed:after {
+    height: 50px;
+    top: -9px;
+    right: 0;
+    left: 0;
+  }
+  .Clamshell-button:after {
+    background-position: -297px -2308px;
+    width: 10px;
+    height: 6px;
+    top: 45px;
+    right: 25px;
+  }
+  .Clamshell-button:hover:after {
+    background-position: -576px -2216px;
+  }
+  .Clamshell.active .Clamshell-button:after {
+    background-position: 0 -2648px;
+  }
+  .Clamshell-title {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .Clamshell-body .List--border {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .ingredientsPage .Clamshell {
+    margin-bottom: 20px;
+  }
+  .ingredientsPage .Clamshell-header {
+    height: 62px;
+  }
+  .ingredientsPage .Clamshell-button:after {
+    top: 28px;
+  }
+  .ingredientsPage .bigTitle {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .ingredientsPage .subTitle:after,
+  .ingredientsPage .biggerTitle--deep {
+    margin: 0px auto 30px;
+  }
+  .ingredientsPage .categoryButtonSet.biggestMarginBottom {
+    margin-bottom: 40px;
+  }
+  .ingredientsPage .OptionHeader .selectionHeader {
+    font-size: 22px;
+    text-align: left;
+  }
+  .ingredientsPage .Breadcrumb {
+    padding: 0px 10px 0px 10px;
+  }
+  .ingredientsPage .Breadcrumb .Breadcrumb-link {
+    display: inline;
+  }
+  .ingredientsPage .categoryButton {
+    color: black;
+    background: none;
+  }
+  .ingredientsPage .categoryButton:after {
+    content: normal;
+  }
+  .ingredientsPage .categoryButton--active {
+    color: $corporateRedColor;
+  }
+  .u-desktop-serving {
+    display: none !important;
+  }
+  .u-mobile-serving {
+    display: inline-block !important;
+  }
+  .careersTable .lookup-table__column {
+    display: none;
+  }
+  .careersTable .lookup-table__header .search {
+    flex: 100%;
+  }
+  .careersTable .lookup-table__header .search-main {
+    flex: 100%;
+  }
+  .careersTable .lookup-table__columns {
+    display: none;
+  }
+  .careersTable .lookup-table__mobile {
+    display: block;
+  }
+  .careersTable .lookup-table__row {
+    display: none;
+  }
+  .vacancy-filter {
+    display: block;
+  }
+  .vacancy-filter-inner {
+    display: block;
+  }
+  .careers-perk {
+    flex: 50%;
+  }
+  .careers-perk .careers-perk-picture {
+    margin: 0 auto;
+  }
+  .careers-perk .careers-perk-text {
+    margin: 0 auto;
+  }
+  .career-header {
+    font-size: 24px;
+  }
+  .hideMobile {
+    display: none;
+  }
+  .showMobile {
+    display: block;
+  }
+  .new-joiner-responsive {
+    flex: 100%;
+  }
+  .c-site-banner .c-banner-content {
+    padding: 0 24px;
+  }
+  .Wrap {
+    margin: 0 20px;
+  }
+  .bigWrap {
+    margin: 0 20px;
+  }
+  .biggerWrap,
+  .DetailsPanel-inner {
+    margin: 0 20px;
+  }
+  .biggestWrap {
+    margin: 0 20px;
+  }
+  .smallWrap {
+    margin: 0 20px;
+  }
+  .smallerWrap,
+  .smallerWrap--full,
+  .personaliseArea {
+    margin: 0 20px;
+  }
+  .smallerWrap--full,
+  .personaliseArea {
+    margin: 0;
+  }
+  .smallestWrap--full {
+    margin: 0 auto;
+  }
+  .js-onside {
+    -moz-transform: translateX(100vw);
+    -ms-transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+  }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.3),
+  only screen and (max-width: 767px) and (min--moz-device-pixel-ratio: 1.3),
+  only screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 13 / 10),
+  only screen and (max-width: 767px) and (min-device-pixel-ratio: 1.3),
+  only screen and (max-width: 767px) and (min-resolution: 124.8dpi),
+  only screen and (max-width: 767px) and (min-resolution: 1.3dppx) {
+  .whiteCircleDown {
+    background-position: 50% -2324px;
+  }
+  .whiteCircleDown:hover {
+    background-position: -560px -2186px;
+  }
+  .Clamshell-button:after {
+    background-position: -297px -2308px;
+  }
+  .Clamshell-button:hover:after {
+    background-position: -576px -2216px;
+  }
+  .Clamshell.active .Clamshell-button:after {
+    background-position: 0 -2648px;
+  }
+}

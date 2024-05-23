@@ -1,0 +1,161 @@
+@import "vars";
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .GoogleMapsIframe {
+    position: relative;
+    height: 60vh;
+    z-index: 1;
+  }
+
+  .palm-oneWhole {
+    width: 100%;
+  }
+
+  .palm-oneHalf,
+  .palm-twoQuarters,
+  .palm-threeSixths,
+  .palm-fourEighths,
+  .palm-fiveTenths,
+  .palm-sixTwelfths,
+  .Grid-item--third-half {
+    width: 50%;
+  }
+
+  .palm-oneThird,
+  .palm-twoSixths,
+  .palm-fourTwelfths {
+    width: 33.333%;
+  }
+
+  .palm-twoThirds,
+  .palm-fourSixths,
+  .palm-eightTwelfths {
+    width: 66.666%;
+  }
+
+  .palm-oneQuarter,
+  .palm-twoEighths,
+  .palm-threeTwelfths {
+    width: 25%;
+  }
+
+  .palm-threeQuarters,
+  .palm-sixEighths,
+  .palm-nineTwelfths {
+    width: 75%;
+  }
+
+  .palm-oneFifth,
+  .palm-twoTenths {
+    width: 20%;
+  }
+
+  .palm-twoFifths,
+  .palm-fourTenths {
+    width: 40%;
+  }
+
+  .palm-threeFifths,
+  .palm-sixTenths {
+    width: 60%;
+  }
+
+  .palm-fourFifths,
+  .palm-eightTenths {
+    width: 80%;
+  }
+
+  .palm-oneSixth,
+  .palm-twoTwelfths {
+    width: 16.666%;
+  }
+
+  .palm-fiveSixths,
+  .palm-tenTwelfths {
+    width: 83.333%;
+  }
+
+  .palm-oneEighth {
+    width: 12.5%;
+  }
+
+  .palm-threeEighths {
+    width: 37.5%;
+  }
+
+  .palm-fiveEighths {
+    width: 62.5%;
+  }
+
+  .palm-sevenEighths {
+    width: 87.5%;
+  }
+
+  .palm-oneTenth {
+    width: 10%;
+  }
+
+  .palm-threeTenths {
+    width: 30%;
+  }
+
+  .palm-sevenTenths {
+    width: 70%;
+  }
+
+  .palm-nineTenths {
+    width: 90%;
+  }
+
+  .palm-oneTwelfth {
+    width: 8.333%;
+  }
+
+  .palm-fiveTwelfths {
+    width: 41.666%;
+  }
+
+  .palm-sevenTwelfths {
+    width: 58.333%;
+  }
+
+  .palm-elevenTwelfths {
+    width: 91.666%;
+  }
+  .PrevMonthButton {
+    background-position: 30px -2422px;
+  }
+  .PrevMonthButton:hover {
+    background-position: 30px -2372px;
+  }
+  .NextMonthButton {
+    background-position: 62px -2522px;
+  }
+  .NextMonthButton:hover {
+    background-position: 62px -2472px;
+  }
+  .Week-item,
+  .Day-item {
+    height: 62px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.3),
+  only screen and (min-width: 480px) and (max-width: 767px) and (min--moz-device-pixel-ratio: 1.3),
+  only screen and (min-width: 480px) and (max-width: 767px) and (-o-min-device-pixel-ratio: 13 / 10),
+  only screen and (min-width: 480px) and (max-width: 767px) and (min-device-pixel-ratio: 1.3),
+  only screen and (min-width: 480px) and (max-width: 767px) and (min-resolution: 124.8dpi),
+  only screen and (min-width: 480px) and (max-width: 767px) and (min-resolution: 1.3dppx) {
+  .PrevMonthButton {
+    background-position: 30px -2422px;
+  }
+  .PrevMonthButton:hover {
+    background-position: 30px -2372px;
+  }
+  .NextMonthButton {
+    background-position: 62px -2522px;
+  }
+  .NextMonthButton:hover {
+    background-position: 62px -2472px;
+  }
+}

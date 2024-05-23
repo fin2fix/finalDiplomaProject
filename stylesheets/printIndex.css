@@ -1,0 +1,98 @@
+
+@media print {
+  body {
+    background-color: transparent !important;
+  }
+
+  .nutritional-info-page {
+    background-color: transparent !important;
+  }
+  .nutritional-info-page .BuyModule-container,
+  .nutritional-info-page .basketBuyModule-container,
+  .nutritional-info-page .Navigation, .nutritional-info-page .OpenMenu,
+  .nutritional-info-page .Breadcrumb, .nutritional-info-page .FootSocial,
+  .nutritional-info-page .Copyright, .nutritional-info-page .Header::before,
+  .nutritional-info-page .print-hide {
+    display: none;
+  }
+  .nutritional-info-page .Header, .nutritional-info-page .Content, .nutritional-info-page .Footer {
+    background-color: transparent !important;
+  }
+  .nutritional-info-page .Header {
+    height: 46.5px;
+    padding: 0;
+    margin: 0;
+    color: black !important;
+  }
+  .nutritional-info-page .Header:after, .nutritional-info-page .Header--minimal:after {
+    content: none;
+  }
+  .nutritional-info-page p, .nutritional-info-page .mediumText, .nutritional-info-page .Table, .nutritional-info-page .FootAddress {
+    font-size: 12px;
+    color: black !important;
+  }
+  .nutritional-info-page .Page {
+    padding-bottom: 40px;
+  }
+  .nutritional-info-page .Footer, .nutritional-info-page .Footer .whiteLink {
+    color: black !important;
+  }
+  .nutritional-info-page .Footer {
+    padding: 0 0 20px;
+  }
+  .nutritional-info-page .Wrap, .nutritional-info-page .smallerWrap {
+    margin: 0;
+  }
+  .nutritional-info-page .Page.mediumPaddingTop {
+    padding-top: 0;
+  }
+  .nutritional-info-page .biggerTitle--deep {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .nutritional-info-page .biggerTitle--deep::after {
+    background-color: #333;
+    margin: 10px auto;
+  }
+  .nutritional-info-page .smallerTitle, .nutritional-info-page .AccordionWide-title, .nutritional-info-page .Label {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    padding: 0;
+    margin: 0;
+  }
+  .nutritional-info-page .DetailsPanel-content {
+    padding-top: 10px;
+  }
+  .nutritional-info-page .Table {
+    padding-bottom: 20px;
+  }
+  .nutritional-info-page .Table-half {
+    border: none;
+    padding: 0;
+  }
+  .nutritional-info-page .Table-half.leftText {
+    width: 75%;
+  }
+  .nutritional-info-page .Table-half.rightText {
+    width: 25%;
+  }
+  .nutritional-info-page .Logo {
+    width: 137.25px;
+    height: 46.5px;
+  }
+  .nutritional-info-page .Logo-link {
+    background-image: url(../images/horizontal-retina/simmons-logo-large.png);
+    background-position: center;
+    background-size: contain;
+    width: 120px;
+    display: block;
+    height: 40.65573771px;
+  }
+  .nutritional-info-page .FootAddress {
+    margin: 0;
+  }
+}

@@ -1,0 +1,36 @@
+@import "vars";
+
+@media (max-height: 840px) {
+  .foodIllustration img {
+    max-height: 100%;
+    padding: 40px 0 60px;
+    width: auto;
+  }
+  .SectionIntro-text {
+    display: none;
+  }
+  .whiteCircleDown {
+    margin: 20px auto;
+    background-position: 50% -2324px;
+  }
+  .whiteCircleDown:hover {
+    background-position: -560px -2186px;
+  }
+  .shortShow {
+    display: block;
+  }
+}
+
+@media only screen and (max-height: 840px) and (-webkit-min-device-pixel-ratio: 1.3),
+  only screen and (max-height: 840px) and (min--moz-device-pixel-ratio: 1.3),
+  only screen and (max-height: 840px) and (-o-min-device-pixel-ratio: 13 / 10),
+  only screen and (max-height: 840px) and (min-device-pixel-ratio: 1.3),
+  only screen and (max-height: 840px) and (min-resolution: 124.8dpi),
+  only screen and (max-height: 840px) and (min-resolution: 1.3dppx) {
+  .whiteCircleDown {
+    background-position: 50% -2324px;
+  }
+  .whiteCircleDown:hover {
+    background-position: -560px -2186px;
+  }
+}

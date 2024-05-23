@@ -1,0 +1,307 @@
+@import "vars";
+
+@media only screen and (min-width: 768px) {
+  .tabdesk-oneWhole {
+    width: 100%;
+  }
+
+  .tabdesk-oneHalf,
+  .tabdesk-twoQuarters,
+  .tabdesk-threeSixths,
+  .tabdesk-fourEighths,
+  .tabdesk-fiveTenths,
+  .tabdesk-sixTwelfths,
+  .DetailsPanel-grid,
+  .Accordion-half,
+  .Grid-item--whole-half {
+    width: 50%;
+  }
+
+  .tabdesk-oneThird,
+  .tabdesk-twoSixths,
+  .tabdesk-fourTwelfths,
+  .Grid-item--third,
+  .Grid-item--third-half {
+    width: 33.333%;
+  }
+
+  .tabdesk-twoThirds,
+  .tabdesk-fourSixths,
+  .tabdesk-eightTwelfths {
+    width: 66.666%;
+  }
+
+  .tabdesk-oneQuarter,
+  .tabdesk-twoEighths,
+  .tabdesk-threeTwelfths,
+  .Grid-item--fourth {
+    width: 25%;
+  }
+
+  .tabdesk-threeQuarters,
+  .tabdesk-sixEighths,
+  .tabdesk-nineTwelfths {
+    width: 75%;
+  }
+
+  .tabdesk-oneFifth,
+  .tabdesk-twoTenths {
+    width: 20%;
+  }
+
+  .tabdesk-twoFifths,
+  .tabdesk-fourTenths {
+    width: 40%;
+  }
+
+  .tabdesk-threeFifths,
+  .tabdesk-sixTenths {
+    width: 60%;
+  }
+
+  .tabdesk-fourFifths,
+  .tabdesk-eightTenths {
+    width: 80%;
+  }
+
+  .tabdesk-oneSixth,
+  .tabdesk-twoTwelfths {
+    width: 16.666%;
+  }
+
+  .tabdesk-fiveSixths,
+  .tabdesk-tenTwelfths {
+    width: 83.333%;
+  }
+
+  .tabdesk-oneEighth {
+    width: 12.5%;
+  }
+
+  .tabdesk-threeEighths {
+    width: 37.5%;
+  }
+
+  .tabdesk-fiveEighths {
+    width: 62.5%;
+  }
+
+  .tabdesk-sevenEighths {
+    width: 87.5%;
+  }
+
+  .tabdesk-oneTenth {
+    width: 10%;
+  }
+
+  .tabdesk-threeTenths {
+    width: 30%;
+  }
+
+  .tabdesk-sevenTenths {
+    width: 70%;
+  }
+
+  .tabdesk-nineTenths {
+    width: 90%;
+  }
+
+  .tabdesk-oneTwelfth {
+    width: 8.333%;
+  }
+
+  .tabdesk-fiveTwelfths {
+    width: 41.666%;
+  }
+
+  .tabdesk-sevenTwelfths {
+    width: 58.333%;
+  }
+
+  .tabdesk-elevenTwelfths {
+    width: 91.666%;
+  }
+}
+
+@media (min-width: 768px) {
+  .WarningBanner {
+    height: 60px;
+  }
+  .WarningBanner-inner {
+    height: 60px;
+  }
+  .spinner > div {
+    width: 20px;
+    height: 20px;
+  }
+  .Canvas {
+    min-height: 430px;
+  }
+  .SectionIntro-title:after {
+    background-position: -827px 0;
+    width: 280px;
+    height: 44px;
+    margin: 30px auto;
+  }
+  .ContinueBar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .PageNav-item {
+    display: inline-block;
+  }
+  .Carousel-item {
+    min-height: 440px;
+  }
+  .Carousel-description {
+    min-height: 166px;
+  }
+  .MapPanel-inner {
+    width: 620px;
+    height: 620px;
+  }
+  .MapPanel-inner::before {
+    border-top: 110px solid $corporateWhiteColor;
+    border-left: 110px solid transparent;
+  }
+  .MapPanel-close {
+    background-position: 0 -1590px;
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    right: 20px;
+  }
+  .MapPanel-close:hover {
+    background-position: 0 -1510px;
+  }
+  .placePin {
+    margin-bottom: 10px;
+  }
+  .bigContact {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .sideBorder {
+    border-left: 1px solid $borderColor;
+  }
+  .ProgressBar {
+    margin-bottom: 50px;
+  }
+  .personaliseStripe,
+  .personalisedStripe {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0;
+  }
+  .Product-overlayLabel {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1.9px;
+    padding: 0;
+  }
+  .Product-overlayLabel:before {
+    transform: none;
+    margin: auto auto 15px auto;
+  }
+  .Product-name {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: space-between;
+    letter-spacing: 1.9px;
+  }
+  .Product-name::before,
+  .Product-name::after {
+    display: inline-block;
+    margin-left: 0;
+  }
+  .Product-name::before {
+    content: "";
+  }
+  .Product-name .is-reviewed::before {
+    content: "";
+  }
+  .Product-pricing:after {
+    content: "";
+    display: block;
+    margin: 14px auto 16px;
+    background: $corporateRedColor;
+    height: 1px;
+    width: 60px;
+  }
+  .DetailsPanel-grid {
+    padding: 0 20px;
+  }
+  .Accordion-half {
+    padding: 0 20px;
+    margin-left: 0;
+  }
+  .Accordion-title {
+    background: none;
+  }
+  .Accordion-title.active {
+    background: none;
+  }
+  .AccordionWide-title span {
+    padding: 10px 20px;
+  }
+  .AccordionWide-title.active span {
+    color: $corporateWhiteColor;
+    background: $corporateRedColor;
+  }
+  .AccordionWide-title.active:after {
+    margin-top: 30px;
+  }
+  .personaliseStripe-pi {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 0;
+  }
+  .Today:after {
+    border-top: 10px solid $corporateGreyColor;
+    border-left: 10px solid transparent;
+  }
+  .Day-link.Closed:after {
+    height: 100px;
+    top: -19px;
+    right: 0;
+    left: 0;
+  }
+  .Clamshell-body .List--border {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  .portableShow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3),
+  only screen and (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3),
+  only screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 13 / 10),
+  only screen and (min-width: 768px) and (min-device-pixel-ratio: 1.3),
+  only screen and (min-width: 768px) and (min-resolution: 124.8dpi),
+  only screen and (min-width: 768px) and (min-resolution: 1.3dppx) {
+  .SectionIntro-title:after {
+    background-position: -827px 0;
+  }
+  .MapPanel-close {
+    background-position: 0 -1590px;
+  }
+  .MapPanel-close:hover {
+    background-position: 0 -1510px;
+  }
+}

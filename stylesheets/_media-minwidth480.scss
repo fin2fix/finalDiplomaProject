@@ -1,0 +1,167 @@
+@import "vars";
+
+@media (min-width: 480px) {
+  .CardDetails:last-child {
+    padding-left: 20px;
+  }
+  .personaliseMessage::-webkit-input-placeholder {
+    opacity: 0;
+  }
+  .personaliseMessage::-moz-placeholder {
+    opacity: 0;
+  }
+  .personaliseMessage:-ms-input-placeholder {
+    font-size: 0;
+    color: transparent;
+  }
+  .personaliseMessage:-moz-placeholder {
+    opacity: 0;
+  }
+  .Bill-item,
+  .Bill-total {
+    min-height: 39px;
+    width: 80%;
+  }
+  .Bill-total:after,
+  .Bill-total:before {
+    margin-top: -2px;
+  }
+  .Bill-itemName {
+    margin: 6px 0;
+    display: block;
+  }
+  .Bill-price {
+    height: 39px;
+    width: 20%;
+  }
+
+  .Day-link {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .smallestWrap,
+  .smallestWrap--full {
+    max-width: 460px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .palmdesk-oneWhole {
+    width: 100%;
+  }
+
+  .palmdesk-oneHalf,
+  .palmdesk-twoQuarters,
+  .palmdesk-threeSixths,
+  .palmdesk-fourEighths,
+  .palmdesk-fiveTenths,
+  .palmdesk-sixTwelfths,
+  .Grid-item--half {
+    width: 50%;
+  }
+
+  .palmdesk-oneThird,
+  .palmdesk-twoSixths,
+  .palmdesk-fourTwelfths {
+    width: 33.333%;
+  }
+
+  .palmdesk-twoThirds,
+  .palmdesk-fourSixths,
+  .palmdesk-eightTwelfths {
+    width: 66.666%;
+  }
+
+  .palmdesk-oneQuarter,
+  .palmdesk-twoEighths,
+  .palmdesk-threeTwelfths {
+    width: 25%;
+  }
+
+  .palmdesk-threeQuarters,
+  .palmdesk-sixEighths,
+  .palmdesk-nineTwelfths {
+    width: 75%;
+  }
+
+  .palmdesk-oneFifth,
+  .palmdesk-twoTenths {
+    width: 20%;
+  }
+
+  .palmdesk-twoFifths,
+  .palmdesk-fourTenths {
+    width: 40%;
+  }
+
+  .palmdesk-threeFifths,
+  .palmdesk-sixTenths {
+    width: 60%;
+  }
+
+  .palmdesk-fourFifths,
+  .palmdesk-eightTenths {
+    width: 80%;
+  }
+
+  .palmdesk-oneSixth,
+  .palmdesk-twoTwelfths {
+    width: 16.666%;
+  }
+
+  .palmdesk-fiveSixths,
+  .palmdesk-tenTwelfths {
+    width: 83.333%;
+  }
+
+  .palmdesk-oneEighth {
+    width: 12.5%;
+  }
+
+  .palmdesk-threeEighths {
+    width: 37.5%;
+  }
+
+  .palmdesk-fiveEighths {
+    width: 62.5%;
+  }
+
+  .palmdesk-sevenEighths {
+    width: 87.5%;
+  }
+
+  .palmdesk-oneTenth {
+    width: 10%;
+  }
+
+  .palmdesk-threeTenths {
+    width: 30%;
+  }
+
+  .palmdesk-sevenTenths {
+    width: 70%;
+  }
+
+  .palmdesk-nineTenths {
+    width: 90%;
+  }
+
+  .palmdesk-oneTwelfth {
+    width: 8.333%;
+  }
+
+  .palmdesk-fiveTwelfths {
+    width: 41.666%;
+  }
+
+  .palmdesk-sevenTwelfths {
+    width: 58.333%;
+  }
+
+  .palmdesk-elevenTwelfths {
+    width: 91.666%;
+  }
+}

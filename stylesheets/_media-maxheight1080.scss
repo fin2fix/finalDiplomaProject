@@ -1,0 +1,19 @@
+@import "vars";
+
+@media (max-height: 1080px) {
+  .Illustration,
+  .homeIllustration,
+  .foodIllustration {
+    position: relative;
+  }
+  .homeIllustration img {
+    max-height: 100%;
+    padding: 40px 0 60px;
+    width: auto;
+  }
+  .foodIllustration img {
+    max-height: 100%;
+    padding: 60px 0 120px;
+    width: auto;
+  }
+}
